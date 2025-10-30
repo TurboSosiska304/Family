@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(90deg, #92a8d1 0%, #f7cac9 100%);
+  padding: 40px 0 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.3em;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+nav {
+  margin-top: 18px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 1em;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ff6f61;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.about h2, .school h2, .love-week h2 {
+  color: #5a6e92;
+  margin-bottom: 15px;
+}
+
+.about ul, .school ul, .love-week ul {
+  list-style: disc inside;
+  margin-top: 18px;
+}
+
+.school ul li b, .love-week ul li b {
+  color: #ff6f61;
+}
+
+footer {
+  background: #5a6e92;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  font-size: 1em;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+  header, section, footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container {
+    width: 98%;
+  }
+}
